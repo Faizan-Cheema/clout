@@ -1,4 +1,4 @@
-import { pool } from '../config/db.js';
+import pool from '../config/db.js';
 
 const createSubscriptionsTable = async () => {
   try {
@@ -26,4 +26,4 @@ const createSubscriptionsTable = async () => {
   }
 };
 
-export default createSubscriptionsTable; 
+export default createSubscriptionsTable;

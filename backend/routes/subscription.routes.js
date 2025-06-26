@@ -12,7 +12,7 @@ import {
   getPriceId,
   stripe
 } from '../services/stripeService.js';
-import { pool } from '../config/db.js';
+import pool from '../config/db.js';
 
 const router = express.Router();
 
